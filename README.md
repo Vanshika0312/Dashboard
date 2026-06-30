@@ -1,16 +1,55 @@
-# React + Vite
+# 📚 Question Paper Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive **Question Paper Management System** built with **React.js** featuring separate **Admin** and **User** dashboards for managing and browsing question papers.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Admin
+- Dashboard
+- Upload Papers
+- Manage Papers
+- Manage Users
+- Notifications
+- Profile
 
-## React Compiler
+### User
+- Login & Register
+- Browse Papers
+- My Uploads
+- Notifications
+- Profile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React.js
+- React Router DOM
+- CSS3
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+> **Backend (Upcoming):** Node.js, Express.js, MongoDB
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/question-paper-management-system.git
+cd question-paper-management-system
+npm install
+npm run dev
+```
+
+## 📌 Future Enhancements
+
+- MongoDB Integration
+- JWT Authentication
+- File Upload (PDF)
+- Dynamic Notifications
+- Search & Filters
+- Paper Approval System
+
+## 👩‍💻 Developer
+
+**Vanshika Chauhan**
+
+---
+
+⭐ This project was built as a learning project to practice React, routing, role-based dashboards, and frontend development.
