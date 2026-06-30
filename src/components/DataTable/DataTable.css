@@ -1,0 +1,116 @@
+.table-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  padding: 1rem;
+  color: #2e8576;
+  font-weight: 500;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+td {
+  padding: 1.25rem 1rem;
+  font-size: 14px;
+  color: #2d3848;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.sl-badge {
+  background-color: #f1f5f9;
+  color: #2e6c7d;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.year-badge {
+  background-color: #f1f5f9;
+  color: #253245;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.question-col {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.page-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.page-btn:hover {
+  background-color: #f1f5f9;
+}
+
+.page-btn:active {
+  transform: scale(0.95);
+}
+
+.page-btn.active {
+  background-color: white;
+  color: #0f172a;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.dots {
+  color: #94a3b8;
+  margin: 0 4px;
+}
+
+.next-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #0f172a;
+  color: white;
+  margin-left: 8px;
+  transition: background-color 0.2s;
+}
+
+.next-btn:hover {
+  background-color: #1e293b;
+}
+
+.next-btn:active {
+  transform: scale(0.95);
+}

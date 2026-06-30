@@ -1,0 +1,107 @@
+.exams-container {
+  padding: 24px;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.exams-container h1 {
+  margin-bottom: 8px;
+  color: var(--text-primary);
+  font-size: 24px;
+}
+
+.exams-container > p {
+  color: #64748b;
+  margin-bottom: 32px;
+  font-size: 15px;
+}
+
+.exams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.exams-card {
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-color);
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exams:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.exams-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.exams-card h3 {
+  color: var(--text-primary);
+  font-size: 18px;
+  margin: 0;
+}
+
+.badge-live {
+  background-color: #ef4444;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.exams-card p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.exams-info {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.exams-info span {
+  font-size: 13px;
+  color: #475569;
+  background-color: #e2e8f0;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.start-btn {
+  background-color: var(--accent-orange);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: auto;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.start-btn:hover {
+  background-color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .exams-grid {
+    grid-template-columns: 1fr;
+  }
+}

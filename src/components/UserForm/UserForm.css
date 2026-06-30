@@ -1,0 +1,112 @@
+.user-form-container {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(231, 235, 240, 0.8);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-form-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.user-form-header {
+  margin-bottom: 24px;
+}
+
+.user-form-header h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f264e;
+  margin-bottom: 6px;
+}
+
+.user-form-header p {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 14px;
+  color: #9ca3af;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 14px 12px 42px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #1f264e;
+  background-color: #f9fafb;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-group input::placeholder {
+  color: #9ca3af;
+}
+
+.input-group input:focus {
+  background-color: #ffffff;
+  border-color: #336e72;
+  box-shadow: 0 0 0 3px rgba(51, 110, 114, 0.15);
+}
+
+.input-group input:focus + .input-icon,
+.input-group input:not(:placeholder-shown) + .input-icon {
+  color: #336e72;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 12px 20px;
+  background-color: #336e72;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(51, 110, 114, 0.2);
+}
+
+.submit-btn:hover {
+  background-color: #245457;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(51, 110, 114, 0.3);
+}
+
+.submit-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(51, 110, 114, 0.2);
+}
+
+.btn-icon {
+  font-size: 18px;
+}

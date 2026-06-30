@@ -1,0 +1,124 @@
+.admin-profile-page {
+  padding: 28px;
+  background: #f8f9fa;
+  min-height: calc(100vh - 70px);
+}
+
+.ap-header {
+  margin-bottom: 28px;
+}
+
+.ap-header h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.ap-header p { font-size: 14px; color: #64748b; }
+
+.ap-card {
+  background: white;
+  border-radius: 14px;
+  padding: 32px;
+  border: 1px solid #e2e8f0;
+  max-width: 580px;
+}
+
+.ap-avatar-section {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 24px;
+}
+
+.ap-avatar {
+  width: 88px; height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e2e8f0;
+}
+
+.ap-name-group h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.ap-role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #eef2ff;
+  color: #6366f1;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.ap-divider {
+  height: 1px;
+  background: #f1f5f9;
+  margin: 20px 0;
+}
+
+.ap-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.ap-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ap-field label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ap-field p {
+  font-size: 15px;
+  color: #334155;
+  font-weight: 500;
+  margin: 0;
+}
+
+.ap-status-active {
+  color: #059669 !important;
+}
+
+.ap-actions { margin-top: 4px; }
+
+.ap-edit-btn {
+  background: #529896;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+
+.ap-edit-btn:hover { background: #247273; }
+
+@media (max-width: 560px) {
+  .ap-details { grid-template-columns: 1fr; }
+  .admin-profile-page { padding: 16px; }
+  .ap-card { padding: 20px; }
+}

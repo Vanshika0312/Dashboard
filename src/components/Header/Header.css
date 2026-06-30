@@ -1,0 +1,39 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-titles h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #141c2e;
+  margin-bottom: 4px;
+}
+
+.header-titles p {
+  color: #64748b;
+  font-size: 16px;
+}
+
+.primary-btn {
+  background-color: var(--accent-orange);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 4px 6px -1px rgba(249, 115, 22, 0.2);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.primary-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 8px -1px rgba(249, 115, 22, 0.3);
+}
+
+.primary-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px -1px rgba(249, 115, 22, 0.4);
+}
